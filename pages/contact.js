@@ -54,8 +54,12 @@ const contact = () => {
                 </a>
               </motion.div>
             </div>
-            <div className="md:absolute relative bottom-0 right-0 items-center justify-center flex mt-5 md:mt-0">
+
+            <div className="md:absolute relative bottom-0 right-0 items-center justify-center flex mt-5 md:mt-0 2xl:hidden">
               <Image src="/01.png" width={200} height={200} />
+            </div>
+            <div className="hidden 2xl:flex md:absolute relative bottom-0 right-40 items-center justify-center  mt-5 md:mt-0">
+              <Image src="/01.png" width={400} height={400} />
             </div>
           </main>
         </div>

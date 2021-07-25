@@ -18,7 +18,7 @@ export default function App() {
       <h1 className="font-next text-3xl text-center font-bold my-4">Clients</h1>
       <AnimateSharedLayout>
         <motion.ul
-          className="flex flex-col gap-5 md:p-5 p-1 mx-auto max-w-5xl overflow-hidden"
+          className="flex flex-col gap-5 md:p-5 p-1 mx-auto max-w-5xl overflow-hidden 2xl:min-h-screen"
           layout={true}
         >
           {items.map((item) => (
