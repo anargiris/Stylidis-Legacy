@@ -39,6 +39,15 @@
   transition: 0.7s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
+@media only screen and (min-width: 1536px) {
+  .button {
+    height: 50px;
+    line-height: 45px;
+    font-size: 16px;
+    padding: 0px 15px;
+  }
+}
+
 .list {
   list-style: none;
   transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
