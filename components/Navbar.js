@@ -42,10 +42,20 @@ const Navbar = () => {
         </Link>
         <span className={styles.list}>
           <span className="2xl:hidden">
-            <Image src="/icons/eshop.svg" height={50} width={50} />
+            <Image
+              src="/icons/eshop.svg"
+              height={50}
+              width={50}
+              alt="Ecommerce Nav Icon"
+            />
           </span>
           <span className="hidden 2xl:inline-block">
-            <Image src="/icons/eshop.svg" height={80} width={80} />
+            <Image
+              src="/icons/eshop.svg"
+              height={80}
+              width={80}
+              alt="Ecommerce Nav Icon"
+            />
           </span>
         </span>
       </motion.div>
@@ -55,10 +65,20 @@ const Navbar = () => {
         </Link>
         <span className={styles.list}>
           <span className="2xl:hidden">
-            <Image src="/icons/projects.svg" height={50} width={50} />
+            <Image
+              src="/icons/projects.svg"
+              height={50}
+              width={50}
+              alt="Clients Nav Icon"
+            />
           </span>
           <span className="hidden 2xl:inline-block">
-            <Image src="/icons/projects.svg" height={80} width={80} />
+            <Image
+              src="/icons/projects.svg"
+              height={80}
+              width={80}
+              alt="Clients Nav Icon"
+            />
           </span>
         </span>
       </motion.div>
@@ -68,10 +88,20 @@ const Navbar = () => {
         </Link>
         <span className={styles.list}>
           <span className="2xl:hidden">
-            <Image src="/icons/contact.svg" height={50} width={50} />
+            <Image
+              src="/icons/contact.svg"
+              height={50}
+              width={50}
+              alt="Contact Anargyros Stylidis Nav Icon"
+            />
           </span>
           <span className="hidden 2xl:inline-block">
-            <Image src="/icons/contact.svg" height={80} width={80} />
+            <Image
+              src="/icons/contact.svg"
+              height={80}
+              width={80}
+              alt="Contact Anargyros Stylidis Nav Icon"
+            />
           </span>
         </span>
       </motion.div>
@@ -81,10 +111,20 @@ const Navbar = () => {
         </Link>
         <span className={styles.list}>
           <span className="2xl:hidden">
-            <Image src="/icons/dev.svg" height={50} width={50} />
+            <Image
+              src="/icons/dev.svg"
+              height={50}
+              width={50}
+              alt="Development information Nav Icon"
+            />
           </span>
           <span className="hidden 2xl:inline-block">
-            <Image src="/icons/dev.svg" height={80} width={80} />
+            <Image
+              src="/icons/dev.svg"
+              height={80}
+              width={80}
+              alt="Development information Nav Icon"
+            />
           </span>
         </span>
       </motion.div>

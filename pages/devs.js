@@ -37,7 +37,7 @@ const devs = () => {
   return (
     <>
       <PageHead
-        title="Development Information"
+        title="Anargyros Stylidis - Development Information"
         description="Information that other web developers might find useful or inspiring."
       />
       <PageNavbar />

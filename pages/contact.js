@@ -12,7 +12,7 @@ const contact = () => {
     <>
       <Head
         title="Anargyros Stylidis - Contact"
-        description="Contact me and we can start working on your website."
+        description="Contact me and we can start working on your website. Fill the page's form or reach out to me on some famous social platforms."
       />
       <div className="min-h-screen mb-10">
         <PageNavbar />

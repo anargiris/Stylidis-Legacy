@@ -60,7 +60,7 @@ const BrandSection = () => {
         </div>
         <p className="mt-10 text-gray-darkest 2xl:text-2xl">
           <Link href="/work">
-            <span className="cursor-pointer 2xl:text-2xl text-yellow-500 text-lg hover:text-yellow-700 transitoin duration-200">
+            <span className="cursor-pointer 2xl:text-2xl text-yellow-600 text-lg hover:text-yellow-700 transitoin duration-200">
               See my work
             </span>
           </Link>

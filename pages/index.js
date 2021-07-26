@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Head
         title="Anargyros Stylidis - Web Developer - Greece"
-        description="Web developer from Greece specializing in creating modern, elegant, responsive websites."
+        description="Web developer from Greece specializing in creating modern, elegant, responsive websites. Contact for more information or if you need your own website."
       />
       <HomePageHeader />
       <OfferSection />

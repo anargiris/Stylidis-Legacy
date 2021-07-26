@@ -11,8 +11,8 @@ export default function App() {
   return (
     <>
       <PageHead
-        title="Anargyros Stylidis - Clients"
-        description="Some of my clients and work I have done. "
+        title="Anargyros Stylidis - Web developer - Clients"
+        description="Some of my clients and work I have done. Contact me for your own website."
       />
       <PageNavbar />
       <h1 className="font-next text-3xl text-center font-bold my-4">Clients</h1>
