@@ -3,10 +3,12 @@ import fs from "fs";
 const Sitemap = () => {};
 
 export const getServerSideProps = ({ res }) => {
-  const baseUrl = {
-    development: "http://localhost:3000",
-    production: "https://stylidis.vercel.app",
-  }[process.env.NODE_ENV];
+  // const baseUrl = {
+  //   development: "http://localhost:3000",
+  //   production: "https://stylidis.vercel.app",
+  // }[process.env.NODE_ENV];
+
+  const baseUrl = "https://stylidis.vercel.app";
 
   const staticPages = fs
     .readdirSync("pages")

@@ -6,7 +6,6 @@ import BrandSection from "../components/BrandSection";
 import Head from "../components/PageHead";
 
 export default function Home() {
-  console.log(process.env.NODE_ENV);
   return (
     <>
       <Head
