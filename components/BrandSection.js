@@ -17,6 +17,7 @@ const BrandSection = () => {
           alt="Image of Brand Section. Created by Mirella Bee."
         />
       </div>
+
       <div className="flex-1 font-cab px-1 2xl:px-4 py-4 md:py-0 text-gray-darkest">
         <h3 className="font-next text-3xl 2xl:text-5xl mb-4 text-blue-600">
           I create modern websites.

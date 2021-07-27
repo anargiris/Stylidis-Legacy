@@ -29,6 +29,7 @@ export default function Item({ title, paragraph, stack, img, link }) {
               layout="fill"
               objectFit="cover"
               className="rounded-t-sm"
+              placeholder="blur"
             />
           </motion.div>
           <motion.div layout={true} className="w-1/2 md:p-10 p-4">
