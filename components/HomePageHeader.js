@@ -32,9 +32,9 @@ const HomePageHeader = () => {
           >
             <p className="md:w-1/2 md:mt-16 mt-8 text-xl font-cab 2xl:text-3xl text-gray-700">
               Increase your brand's credibility and show up on Google's search
-              results. Boost your sales and a find new audience.
+              results. Boost your sales and find a new audience.
             </p>
-            <p className="text-gray-800 leading-9 font-bold font-cab text-lg 2xl:text-3xl mt-4">
+            <p className="text-gray-700 leading-9 font-bold font-cab text-lg 2xl:text-3xl mt-4">
               Get your own space on the internet.
             </p>
           </div>
