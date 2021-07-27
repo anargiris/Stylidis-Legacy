@@ -22,10 +22,10 @@ const BrandSection = () => {
           I create modern websites.
         </h3>
         <p className="mb-2 2xl:text-2xl">
-          I want to help small businesses and individuals get their own website.
-          People trust websites more than, let's say, Instagram or Facebook
-          profiles. It gives you more control over your image. Think of it as
-          building your own tribe.
+          I want to help small businesses and individuals get their own
+          websites. People trust websites more than, let's say, Instagram or
+          Facebook profiles. It gives you more control over your image. Think of
+          it as building your own tribe.
         </p>
         <p className="2xl:text-2xl">
           Showing your work, contact information, pricing and more helps users
@@ -36,7 +36,7 @@ const BrandSection = () => {
             Building a website NOW can help you LATER.
           </h4>
           <p className="mb-2 2xl:text-xl">
-            It's a long term investment. Growing your online traffic will help
+            It's a long-term investment. Growing your online traffic will help
             evolve your brand faster. Over time, you'll be getting a huge
             advantage and your future projects/products will reach a wider
             audience.
@@ -52,7 +52,7 @@ const BrandSection = () => {
           </h5>
           <p className="mb-2 2xl:text-xl">
             People search online for things. Being searchable online is the
-            leading factor of building strong brand credibility.
+            leading factor in building strong brand credibility.
           </p>
           <p className="2xl:text-xl">
             Imagine two local coffee selling businesses but only one shows up on
