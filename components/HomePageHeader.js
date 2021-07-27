@@ -31,11 +31,11 @@ const HomePageHeader = () => {
             className={`${styles.borderstuff}  border-b-2 border-pink-border pb-1`}
           >
             {" "}
-            <p className="md:w-1/2 md:mt-16 mt-8 text-xl font-cab 2xl:text-3xl text-gray-700">
+            <p className="md:w-1/2 md:mt-16 mt-8 text-xl font-cab 2xl:text-3xl text-gray-800">
               Increase your brand's credibility and show up on Google's search
               results. Boost your sales and find new audience.
             </p>
-            <p className="text-gray-800 font-cab text-lg 2xl:text-3xl mt-4">
+            <p className="text-gray-darkest font-cab text-lg 2xl:text-3xl mt-4">
               {" "}
               Get your own space on the internet.
             </p>
@@ -44,7 +44,7 @@ const HomePageHeader = () => {
           <div className="mt-10 2xl:mt-20">
             <div>
               <span
-                className={`${styles.wordCarousel} font-next md:flex hidden`}
+                className={`${styles.wordCarousel} font-next md:flex hidden text-gray-darkest`}
               >
                 <span>Are you </span>
                 <div className="italic z-10">
@@ -73,14 +73,14 @@ const HomePageHeader = () => {
       {/*
       Header Image responsive
     */}
-      <div className="absolute bottom-0 right-0 md:right-48 lg:hidden inline-block">
+      <div className="absolute bottom-0 right-0 md:right-48 md:hidden inline-block">
         <Image src="/07.png" width={150} height={150} />
       </div>
-      <div className="absolute bottom-0 md:right-48 2xl:hidden lg:block hidden ">
+      <div className="absolute bottom-0 md:right-48 2xl:hidden md:block hidden ">
         <Image src="/07.png" width={400} height={400} />
       </div>
       <div className="absolute bottom-0 right-48 2xl:block hidden">
-        <Image src="/07.png" width={600} height={600} />
+        <Image src="/07.png" width={550} height={550} />
       </div>
       {/*
         Responsive Images end
