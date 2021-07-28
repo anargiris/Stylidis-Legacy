@@ -23,8 +23,14 @@ const PageHead = ({ title, description }) => {
 
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@Astylidis" />
-      <meta name="twitter:image" content="" />
-      <meta property="og:image" content="" />
+      <meta
+        name="twitter:image"
+        content="https://stylidis.vercel.app/thumbnail.png"
+      />
+      <meta
+        property="og:image"
+        content="https://stylidis.vercel.app/thumbnail.png"
+      />
     </Head>
   );
 };
