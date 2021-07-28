@@ -7,7 +7,7 @@ const ecommerce = () => {
     <>
       <PageHead
         title="Anargyros Stylidis - Web developer - Ecommerce"
-        title="Get your own online store. Inform yourself on the various platforms that can help you do so."
+        description="Get your own online store. Inform yourself on the various platforms that can help you do so."
       />
       <EcommercePage />
     </>
