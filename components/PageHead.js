@@ -25,11 +25,11 @@ const PageHead = ({ title, description }) => {
       <meta name="twitter:site" content="@Astylidis" />
       <meta
         name="twitter:image"
-        content="https://stylidis.vercel.app/abstract.png"
+        content="https://stylidis.vercel.app/abstract.jpg"
       />
       <meta
         property="og:image"
-        content="https://stylidis.vercel.app/abstract.png"
+        content="https://stylidis.vercel.app/abstract.jpg"
       />
     </Head>
   );
