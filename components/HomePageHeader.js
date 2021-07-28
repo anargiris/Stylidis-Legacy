@@ -72,13 +72,28 @@ const HomePageHeader = () => {
       Header Image responsive
     */}
       <div className="absolute bottom-0 right-0 md:right-48 md:hidden inline-block">
-        <Image src="/07.png" width={150} height={150} />
+        <Image
+          src="/07.png"
+          width={150}
+          height={150}
+          alt="tree of ideas header background photo"
+        />
       </div>
       <div className="absolute bottom-0 md:right-48 2xl:hidden md:block hidden ">
-        <Image src="/07.png" width={400} height={400} />
+        <Image
+          src="/07.png"
+          width={400}
+          height={400}
+          alt="tree of ideas header background photo"
+        />
       </div>
       <div className="absolute bottom-0 right-48 2xl:block hidden">
-        <Image src="/07.png" width={550} height={550} />
+        <Image
+          src="/07.png"
+          width={550}
+          height={550}
+          alt="tree of ideas header background photo"
+        />
       </div>
       {/*
         Responsive Images end

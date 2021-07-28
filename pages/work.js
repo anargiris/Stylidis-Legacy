@@ -47,11 +47,11 @@ export default function App() {
               <motion.p className="text-center text-2xl mb-5 text-gray-700">
                 Feel free to contact me
               </motion.p>
-              <Link href="/contact">
-                <motion.div className="cursor-pointer text-center text-xl text-blue-50 bg-indigo-800 border-2 border-gray-300 px-2 py-1 w-24 mx-auto rounded-md font-bold hover:bg-gray-800 transition duration-200">
+              <motion.div className="cursor-pointer text-center text-xl text-blue-50 bg-indigo-800 border-2 border-gray-300 px-2 py-1 w-24 mx-auto rounded-md font-bold hover:bg-gray-800 transition duration-200">
+                <Link href="/contact">
                   <motion.a>here</motion.a>
-                </motion.div>
-              </Link>
+                </Link>
+              </motion.div>
             </motion.div>
           </motion.section>
         </AnimatePresence>

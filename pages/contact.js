@@ -26,7 +26,12 @@ const contact = () => {
               <Link href="/work">
                 <span className="cursor-pointer">
                   <span className="text-blue-700">work.</span>
-                  <Image src="/icons/arrow.svg" width={15} height={15} />
+                  <Image
+                    src="/icons/arrow.svg"
+                    width={15}
+                    height={15}
+                    alt="Arrow SVG"
+                  />
                 </span>
               </Link>
             </h2>
@@ -37,29 +42,54 @@ const contact = () => {
               <motion.div whileHover={{ scale: 1.1 }}>
                 <Link href="https://twitter.com/AStylidis">
                   <a target="_blank" rel="noreferrer">
-                    <Image src="/icons/twitter.svg" width={50} height={50} />
+                    <Image
+                      src="/icons/twitter.svg"
+                      width={50}
+                      height={50}
+                      alt="Twitter profile link"
+                    />
                   </a>
                 </Link>
               </motion.div>
               <motion.div whileHover={{ scale: 1.1 }}>
                 <Link href="https://www.linkedin.com/in/astylidis/">
                   <a target="_blank" rel="noreferrer">
-                    <Image src="/icons/linkedin.svg" width={50} height={50} />
+                    <Image
+                      src="/icons/linkedin.svg"
+                      width={50}
+                      height={50}
+                      alt="Linkedin profile link"
+                    />
                   </a>
                 </Link>
               </motion.div>
               <motion.div whileHover={{ scale: 1.1 }}>
                 <a href="mailto:anargiriss@hotmail.com">
-                  <Image src="/icons/mail.svg" width={70} height={70} />
+                  <Image
+                    src="/icons/mail.svg"
+                    width={70}
+                    height={70}
+                    alt="Click to email button"
+                  />
                 </a>
               </motion.div>
             </div>
 
             <div className="md:absolute relative bottom-0 right-0 items-center justify-center flex mt-5 md:mt-0 2xl:hidden">
-              <Image src="/01.png" width={200} height={200} />
+              <Image
+                src="/01.png"
+                width={200}
+                height={200}
+                alt="Background Image for contact page"
+              />
             </div>
             <div className="hidden 2xl:flex md:absolute relative bottom-0 right-40 items-center justify-center  mt-5 md:mt-0">
-              <Image src="/01.png" width={400} height={400} />
+              <Image
+                src="/01.png"
+                width={400}
+                height={400}
+                alt="Background Image for contact page"
+              />
             </div>
           </main>
         </div>

@@ -38,9 +38,9 @@ const ContactForm = () => {
 
   return (
     <form className="pb-5 mx-1 md:mx-0 px-10 md:w-1/2 border-l relative border-gray-200 rounded-sm  shadow-xl flex flex-col gap-2">
-      <h4 className="pt-5 font-cab text-lg text-indigo-800 font-bold leading-9">
+      <h3 className="pt-5 font-cab text-lg text-indigo-800 font-bold leading-9">
         Let's work together!
-      </h4>
+      </h3>
       <p className="text-sm mb-1 pt-5 text-gray-500">
         I'll reply in ~24 hours.
       </p>
