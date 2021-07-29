@@ -8,12 +8,11 @@ const BrandSection = () => {
       className="min-h-screen flex lg:flex-row flex-col"
       style={{ backgroundColor: "#f8f9fa" }}
     >
-      <div className="lg:w-1/2 lg:h-screen h-96 relative flex justify-center items-center">
+      <div className="lg:w-1/2 lg:h-screen h-96 relative">
         <Image
           src="/abstract.jpg"
           layout="fill"
           priority={true}
-          className="max-w-full h-auto"
           alt="Image of Brand Section. Created by Mirella Bee."
         />
       </div>
