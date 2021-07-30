@@ -37,25 +37,45 @@ const MobileNav = () => {
     >
       <Link href="/ecommerce">
         <motion.div variants={item} className="relative">
-          <Image src="/icons/eshop.svg" height={50} width={50} />
+          <Image
+            src="/icons/eshop.svg"
+            height={50}
+            width={50}
+            alt="Mobile nav ecommerce"
+          />
         </motion.div>
       </Link>
 
       <Link href="/work">
         <motion.div variants={item}>
-          <Image src="/icons/projects.svg" height={50} width={50} />
+          <Image
+            src="/icons/projects.svg"
+            height={50}
+            width={50}
+            alt="Mobile nav projects"
+          />
         </motion.div>
       </Link>
 
       <Link href="/contact">
         <motion.div variants={item}>
-          <Image src="/icons/contact.svg" height={50} width={50} />
+          <Image
+            src="/icons/contact.svg"
+            height={50}
+            width={50}
+            alt="mobile nav contact"
+          />
         </motion.div>
       </Link>
 
       <Link href="/devs">
         <motion.div variants={item}>
-          <Image src="/icons/dev.svg" height={50} width={50} />
+          <Image
+            src="/icons/dev.svg"
+            height={50}
+            width={50}
+            alt="mobile nav devs"
+          />
         </motion.div>
       </Link>
     </motion.nav>
