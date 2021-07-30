@@ -38,7 +38,7 @@ const EcommerceSection = () => {
           <motion.p
             className={`md:mt-10 mt-5 2xl:text-5xl text-3xl md:w-1/2 text-gray-900`}
           >
-            <span className="font-bold text-gray-darkest">
+            <span className="font-bold 2xl:text-6xl text-4xl text-gray-darkest">
               I'll help you start selling online
             </span>{" "}
             and provide guidance on the usability of your store's admin section.
