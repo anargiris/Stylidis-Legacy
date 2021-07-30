@@ -8,9 +8,8 @@ const generateSitemap = async () => {
     "pages/**/*.{js,jsx,mdx}", // All routes inside /pages
     "_content/**/*.mdx", // All MDX files inside my /_content
     "!pages/**/[*.{ts,tsx}", // Ignore my dynamic route index Example /pages/blog/[slug].tsx
-    "!pages/_*.{ts,tsx}", // Ignore next.js files
+    "!pages/_*.{js,jsx}", // Ignore next.js files
     "!pages/api", // Ignore API routes
-    "!pages/admin.tsx", // Ignore pages not meant to be indexed
   ]);
 
   const urlSet = pages
@@ -19,7 +18,7 @@ const generateSitemap = async () => {
       const path = page
         .replace("pages", "")
         .replace("_content", "")
-        .replace(/(.tsx|.ts)/, "")
+        .replace(/(.jsx|.js)/, "")
         .replace(".mdx", "");
       // Remove the word index from route
       const route = path === "/index" ? "" : path;
