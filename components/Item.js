@@ -30,6 +30,8 @@ export default function Item({ title, paragraph, stack, img, link }) {
               objectFit="cover"
               className="rounded-t-sm"
               alt="Project picture"
+              placeholder="blur"
+              blurDataURL={`https://stylidis.vercel.app/${img}`}
             />
           </motion.div>
           <motion.div layout={true} className="w-1/2 md:p-10 p-4">
