@@ -23,18 +23,20 @@ const HomePageHeader = () => {
       </header>
       <main>
         <div className="md:px-40 px-4 py-10 w-full">
-          <h3 className="text-3xl text-gray-darkest font-semibold font-cab 2xl:text-4xl mt-2">
+          <h3 className="text-3xl text-gray-darkest font-semibold font-cab 2xl:text-5xl mt-2">
             I'll help you build your{" "}
             <span className={styles.highlighted}>online presence.</span>
           </h3>
           <div
             className={`${styles.borderstuff}  border-b-2 border-pink-border pb-1`}
           >
-            <p className="md:w-1/2 md:mt-16 mt-8 text-xl font-cab 2xl:text-3xl text-gray-700">
+            <p className="md:w-1/2 md:mt-16 mt-8 text-xl font-cab 2xl:text-3xl text-gray-darkest">
               Increase your brand's credibility and show up on Google's search
               results. Boost your sales and find a new audience.
             </p>
-            <p className={`text-gray-700 font-cab text-lg 2xl:text-3xl mt-4`}>
+            <p
+              className={`text-gray-800 font-cab text-lg 2xl:text-4xl mt-4 2xl:mt-14`}
+            >
               Get your own space on the internet.
             </p>
           </div>
@@ -54,7 +56,7 @@ const HomePageHeader = () => {
                   </ul>
                 </div>
               </span>
-              <p className="text-lg 2xl:text-2xl font-cab md:mb-0 mb-2 text-gray-800">
+              <p className="text-lg 2xl:text-3xl font-cab md:mb-0 mb-2 text-gray-800">
                 Stay ahead with your very own website!
               </p>
               <Link href="/contact">
@@ -62,6 +64,9 @@ const HomePageHeader = () => {
                   Get a website.
                 </button>
               </Link>
+              <div className="hidden w-40 2xl:block mt-20">
+                <Image src="/08.png" width={200} height={200} />
+              </div>
             </div>
           </div>
         </div>

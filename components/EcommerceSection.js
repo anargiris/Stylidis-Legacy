@@ -19,7 +19,7 @@ const EcommerceSection = () => {
       className="min-h-screen relative w-full overflow-hidden"
       style={{ backgroundImage: "url(/gradient.svg)" }}
     >
-      <h4 className="font-next text-gray-800 text-center pt-4 2xl:text-5xl text-4xl font-bold">
+      <h4 className="font-next text-gray-800 text-center pt-4 2xl:text-6xl text-4xl font-bold">
         Do you need an online store?
       </h4>
       {inView && (
@@ -35,15 +35,13 @@ const EcommerceSection = () => {
           }}
           className="font-cab p-6 z-10 relative"
         >
-          <motion.p
-            className={`md:mt-10 mt-5 2xl:text-5xl text-3xl md:w-1/2 text-gray-900`}
-          >
-            <span className="font-bold 2xl:text-6xl text-4xl text-gray-darkest">
-              I'll help you start selling online
+          <motion.p className="md:mt-10 mt-5 2xl:text-5xl text-3xl md:w-1/2 text-gray-900">
+            <span className="font-bold 2xl:text-6xl underline text-4xl text-gray-darkest">
+              I'll help you start selling online <br />
             </span>{" "}
             and provide guidance on the usability of your store's admin section.
           </motion.p>
-          <motion.p className="my-10 2xl:text-4xl text-2xl text-gray-900">
+          <motion.p className="my-10 2xl:my-14 2xl:text-4xl text-2xl text-gray-900">
             ...using{" "}
             <Link href="https://www.shopify.com/">
               <a

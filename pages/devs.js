@@ -66,7 +66,7 @@ const devs = () => {
             >
               <h3 className="font-bold mt-4">My main stack:</h3>
               <ul className="mt-1">
-                <li>NextJS</li>
+                <li>NextJS/React</li>
                 <li>Tailwind</li>
                 <li>NodeJS</li>
                 <li>Strapi</li>

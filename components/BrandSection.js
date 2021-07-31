@@ -8,7 +8,7 @@ const BrandSection = () => {
       className="min-h-screen flex lg:flex-row flex-col"
       style={{ backgroundColor: "#f8f9fa" }}
     >
-      <div className="lg:w-1/2 lg:h-screen h-96 relative">
+      <div className="lg:w-full flex-1 lg:h-screen h-96 relative">
         <Image
           src="/abstract.jpg"
           layout="fill"

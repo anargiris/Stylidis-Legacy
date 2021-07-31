@@ -11,11 +11,8 @@ const OfferSection = () => {
   });
 
   return (
-    <section
-      ref={ref}
-      className="min-h-screen xl:min-h-full 2xl:py-20 bg-gray-darkest"
-    >
-      <h3 className="text-5xl font-cab text-gray-200 text-center pt-4 mb-8">
+    <section ref={ref} className="min-h-screen xl:min-h-full  bg-gray-darkest">
+      <h3 className="text-5xl font-cab text-gray-200 text-center pt-4 mb-8 2xl:pt-10">
         My Offer:
       </h3>
 
@@ -24,7 +21,7 @@ const OfferSection = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.4, stiffness: 100 }}
-          className="flex lg:flex-row flex-col flex-wrap max-w-6xl mx-auto"
+          className="flex lg:flex-row flex-col flex-wrap max-w-6xl mx-auto 2xl:py-10"
         >
           <Offer
             title="Speed"
