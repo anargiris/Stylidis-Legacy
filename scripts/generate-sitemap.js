@@ -23,7 +23,7 @@ const generateSitemap = async () => {
       // Remove the word index from route
       const route = path === "/index" ? "" : path;
       // Build url portion of sitemap.xml
-      return `<url><loc>https://stylidis.vercel.app${route}</loc></url>`;
+      return `<url><loc>https://stylidis.io${route}</loc></url>`;
     })
     .join("");
 

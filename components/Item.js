@@ -31,7 +31,7 @@ export default function Item({ title, paragraph, stack, img, link }) {
               className="rounded-t-sm"
               alt="Project picture"
               placeholder="blur"
-              blurDataURL={`https://stylidis.vercel.app/${img}`}
+              blurDataURL={`https://stylidis.io/${img}`}
             />
           </motion.div>
           <motion.div layout={true} className="w-1/2 md:p-10 p-4">
