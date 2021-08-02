@@ -82,7 +82,7 @@ const devs = () => {
             </motion.p>
             <motion.div variants={item} className="mt-4">
               <motion.a href="/StylidisAnargyros.docx">
-                <motion.span className="text-yellow-600 cursor-pointer">
+                <motion.span className="text-yellow-600 cursor-pointer md:text-left text-center">
                   Download my resume.
                 </motion.span>
               </motion.a>
