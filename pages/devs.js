@@ -80,6 +80,13 @@ const devs = () => {
               </Link>
               , I'll be happy to answer and connect with any developers.
             </motion.p>
+            <motion.div variants={item} className="mt-4">
+              <motion.a href="/StylidisAnargyros.docx">
+                <motion.span className="text-yellow-600 cursor-pointer">
+                  Download my resume.
+                </motion.span>
+              </motion.a>
+            </motion.div>
           </motion.div>
           <TimelineGrid />
         </main>
