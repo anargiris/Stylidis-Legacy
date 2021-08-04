@@ -103,10 +103,6 @@ const HomePageHeader = () => {
       {/*
         Responsive Images end
       */}
-
-      <div className="absolute bottom-0 right-0 md:mt-20 overflow-hidden z-0">
-        <Image src="/bg.svg" width={650} height={650} />
-      </div>
     </div>
   );
 };
