@@ -15,25 +15,25 @@ const HomePageHeader = () => {
             <h1 className="text-4xl md:text-5xl 2xl:text-7xl lg:px-20 md:px-10 text-gray-200 font-bold py-2 font-next">
               Anargyros Stylidis
             </h1>
-            <h2 className="text-gray-100 cursor-default font-bold md:text-5xl text-2xl  font-cab absolute bottom-0 right-0 opacity-20 tracking-wide">
+            <span className="text-gray-100 cursor-default font-bold md:text-5xl text-2xl  font-cab absolute bottom-0 right-0 opacity-20 tracking-wide">
               I create websites.
-            </h2>
+            </span>
           </div>
         </div>
       </header>
       <main>
         <div className="md:px-40 px-4 py-10 w-full">
-          <h3 className="text-3xl text-gray-darkest font-semibold font-cab 2xl:text-5xl mt-2">
-            I'll help you build your{" "}
+          <span className="text-3xl text-gray-darkest font-semibold font-cab 2xl:text-5xl mt-2">
+            I'll build your{" "}
             <span className={styles.highlighted}>online presence.</span>
-          </h3>
+          </span>
           <div
             className={`${styles.borderstuff}  border-b-2 border-pink-border pb-1`}
           >
-            <p className="md:w-1/2 md:mt-16 mt-8 text-xl font-cab 2xl:text-3xl text-gray-darkest">
-              Increase your brand's credibility and show up on Google's search
-              results. Boost your sales and find a new audience.
-            </p>
+            <h2 className="md:w-1/2 md:mt-16 mt-8 font-cab text-lg 2xl:text-3xl text-gray-800">
+              I am a web developer from Greece. I help small businesses and
+              individuals , creating fast and modern websites.
+            </h2>
             <p
               className={`text-gray-800 font-cab text-lg 2xl:text-4xl mt-4 2xl:mt-14`}
             >
