@@ -32,7 +32,7 @@ const HomePageHeader = () => {
           >
             <h2 className="md:w-1/2 md:mt-16 mt-8 font-cab text-lg 2xl:text-3xl text-gray-800">
               I am a web developer from Greece. I help small businesses and
-              individuals , creating fast and modern websites.
+              individuals by building fast and modern websites.
             </h2>
             <p
               className={`text-gray-800 font-cab text-lg 2xl:text-4xl mt-4 2xl:mt-14`}
