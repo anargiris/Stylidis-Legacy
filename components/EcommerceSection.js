@@ -83,13 +83,28 @@ const EcommerceSection = () => {
         </motion.div>
       )}
       <div className="absolute bottom-0 right-0 mt-20 overflow-hidden z-0">
-        <Image src="/bg.svg" width={650} height={650} />
+        <Image
+          src="/bg.svg"
+          width={650}
+          height={650}
+          alt="background of ecommerce section"
+        />
       </div>
       <div className="absolute md:block hidden bottom-0 -right-10 z-10">
-        <Image src="/11.png" width={450} height={450} />
+        <Image
+          src="/11.png"
+          width={450}
+          height={450}
+          alt="Illustration, ecommerce by Anargyros Stylidis"
+        />
       </div>
       <div className="absolute md:hidden block bottom-0 -right-10 z-10">
-        <Image src="/11.png" width={150} height={150} />
+        <Image
+          src="/11.png"
+          width={150}
+          height={150}
+          alt="Illustration, ecommerce by Anargyros Stylidis"
+        />
       </div>
     </section>
   );

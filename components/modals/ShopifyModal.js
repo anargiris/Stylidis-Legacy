@@ -47,6 +47,7 @@ export default function ShopifyModal() {
                               src="/icons/goto.svg"
                               width={50}
                               height={50}
+                              alt="link to Shopify"
                             />
                           </a>
                         </Link>
@@ -70,27 +71,57 @@ export default function ShopifyModal() {
                     </p>
                     <ul className="mt-5 p-4 border border-gray-300 space-y-1 text-gray-800 shadow-md bg-gray-50 rounded-md">
                       <li>
-                        <Image src="/icons/check.svg" width={20} height={15} />
+                        <Image
+                          src="/icons/check.svg"
+                          width={20}
+                          height={15}
+                          alt="Check icon"
+                        />
                         $29/Month at Basic plan.
                       </li>
                       <li>
-                        <Image src="/icons/check.svg" width={20} height={15} />
+                        <Image
+                          src="/icons/check.svg"
+                          width={20}
+                          height={15}
+                          alt="Check icon"
+                        />
                         Easy to use and customize.
                       </li>
                       <li>
-                        <Image src="/icons/check.svg" width={20} height={15} />
+                        <Image
+                          src="/icons/check.svg"
+                          width={20}
+                          height={15}
+                          alt="Check icon"
+                        />
                         Huge ecosystem.
                       </li>
                       <li>
-                        <Image src="/icons/check.svg" width={20} height={15} />
+                        <Image
+                          src="/icons/check.svg"
+                          width={20}
+                          height={15}
+                          alt="Check icon"
+                        />
                         24/7 Customer support.
                       </li>
                       <li>
-                        <Image src="/icons/check.svg" width={20} height={15} />
+                        <Image
+                          src="/icons/check.svg"
+                          width={20}
+                          height={15}
+                          alt="Check icon"
+                        />
                         14 days free trial.
                       </li>
                       <li>
-                        <Image src="/icons/check.svg" width={20} height={15} />
+                        <Image
+                          src="/icons/check.svg"
+                          width={20}
+                          height={15}
+                          alt="Check icon"
+                        />
                         Free hosting.
                       </li>
                     </ul>

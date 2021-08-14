@@ -65,7 +65,12 @@ const HomePageHeader = () => {
                 </button>
               </Link>
               <div className="hidden w-40 2xl:block mt-20">
-                <Image src="/08.png" width={200} height={200} />
+                <Image
+                  src="/08.png"
+                  width={200}
+                  height={200}
+                  alt="background"
+                />
               </div>
             </div>
           </div>
@@ -100,9 +105,6 @@ const HomePageHeader = () => {
           alt="tree of ideas header background photo"
         />
       </div>
-      {/*
-        Responsive Images end
-      */}
     </div>
   );
 };
