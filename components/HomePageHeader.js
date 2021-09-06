@@ -34,11 +34,6 @@ const HomePageHeader = () => {
               I am a web developer from Greece. I help small businesses and
               individuals by building fast and modern websites.
             </h2>
-            <p
-              className={`text-gray-800 font-cab text-lg 2xl:text-4xl mt-4 2xl:mt-14`}
-            >
-              Get your own space on the internet.
-            </p>
           </div>
 
           <div className="mt-10 2xl:mt-20">
@@ -64,14 +59,6 @@ const HomePageHeader = () => {
                   Get a website.
                 </button>
               </Link>
-              <div className="hidden w-40 2xl:block mt-20">
-                <Image
-                  src="/08.png"
-                  width={200}
-                  height={200}
-                  alt="background"
-                />
-              </div>
             </div>
           </div>
         </div>
