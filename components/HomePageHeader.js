@@ -20,14 +20,15 @@ const HomePageHeader = () => {
       </header>
       <main>
         <div className="md:px-40 px-4 py-10 w-full">
-          <span className="text-3xl text-gray-darkest font-semibold font-cab 2xl:text-5xl mt-2">
+          <span className="text-3xl text-gray-darkest font-semibold font-cab 2xl:text-4xl mt-2">
             I'll build your{" "}
             <span className={styles.highlighted}>online presence.</span>
           </span>
           <div className={`pb-1`}>
-            <h2 className="md:w-1/2 md:mt-16 mt-8 font-cab leading-relaxed text-lg 2xl:text-3xl text-gray-700">
-              I am a web developer from Greece. I help small businesses and
-              individuals by building fast and modern websites.
+            <h2 className="md:w-1/2 md:mt-16 mt-8 font-cab leading-relaxed text-lg 2xl:text-2xl text-gray-700">
+              I am a web developer from Greece.
+              <br /> I help small businesses and individuals by building fast
+              and modern websites.
             </h2>
           </div>
 
