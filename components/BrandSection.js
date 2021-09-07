@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Clouds from "./Clouds";
 
 const BrandSection = () => {
   return (
@@ -8,16 +9,19 @@ const BrandSection = () => {
       className="min-h-screen flex lg:flex-row flex-col"
       style={{ backgroundColor: "#f8f9fa" }}
     >
-      <div className="lg:w-1/2 lg:h-screen h-96 relative">
-        <Image
-          src="/abstract.jpg"
-          layout="fill"
-          priority={true}
-          alt="Image of Brand Section. Created by Mirella Bee."
-        />
+      <div>
+        <div></div>
+        <div className="lg:hidden h-96 relative">
+          <Image
+            src="/abstract.jpg"
+            layout="fill"
+            priority={true}
+            alt="Image of Brand Section. Created by Mirella Bee."
+          />
+        </div>
       </div>
 
-      <div className="flex-1 font-cab px-1 2xl:px-4 py-4 md:py-0 text-gray-darkest">
+      <div className="lg:text-center lg:max-w-4xl lg:mx-auto flex-1 font-cab px-1 2xl:px-4 py-4 md:py-0 text-gray-darkest">
         <h3 className="font-next text-3xl 2xl:text-5xl mb-4 text-blue-600">
           I create modern websites.
         </h3>

@@ -81,4 +81,12 @@ const items = [
     img: "/websites/ksilia.png",
     link: "https://ksiliaefthimiou.gr",
   },
+  {
+    title: "Web Developer Portfolio",
+    paragraph:
+      "My own personal online portfolio that I used for applying to jobs. Minimal, modern design that's focusing on what's important for your future employers.",
+    stack: "NextJS, Tailwind, Netlifty",
+    img: "/websites/webdev.jpg",
+    link: "https://stylidisx.netlify.app",
+  },
 ];

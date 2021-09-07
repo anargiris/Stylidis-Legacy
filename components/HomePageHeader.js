@@ -21,15 +21,20 @@ const HomePageHeader = () => {
       <main>
         <div className="md:px-40 px-4 py-10 w-full">
           <span className="text-3xl text-gray-darkest font-semibold font-cab 2xl:text-4xl mt-2">
-            I'll build your{" "}
-            <span className={styles.highlighted}>online presence.</span>
+            I build{" "}
+            <span className={`${styles.highlighted} text-gray-900`}>
+              modern websites.
+            </span>
           </span>
           <div className={`pb-1`}>
-            <h2 className="md:w-1/2 md:mt-16 mt-8 font-cab leading-relaxed text-lg 2xl:text-2xl text-gray-700">
+            <h2 className="md:w-1/2 md:mt-14 mt-8 font-cab text-xl 2xl:text-2xl leading-relaxed font-bold text-gray-900 mb-2">
               I am a web developer from Greece.
-              <br /> I help small businesses and individuals by building fast
-              and modern websites.
             </h2>
+            <p className="md:w-1/2 font-cab leading-2 text-gray-800 ">
+              I help small businesses and individuals by building fast and
+              modern websites. I will provide you with all the tools and value
+              you need to enter the digital world.
+            </p>
           </div>
 
           <div className="mt-10 2xl:mt-20">
@@ -56,7 +61,7 @@ const HomePageHeader = () => {
                 </button>
               </Link>
               <Link href="/devs">
-                <button className="bg-gray-200 border border-gray-400 font-cab 2xl:py-2 py-1 focus:outline-none px-4 shadow-sm hover:bg-gray-600 2xl:text-2xl 2xl:px-6 hover:text-gray-200 mt-4 2xl:mt-10 transition duration-200 rounded-sm relative z-10">
+                <button className="bg-gray-200 border border-gray-400 font-cab 2xl:py-2 py-1 focus:outline-none px-4 shadow-sm hover:bg-gray-800 2xl:text-2xl 2xl:px-6 hover:text-gray-200 mt-4 2xl:mt-10 transition duration-200 rounded-sm relative z-10">
                   About me
                 </button>
               </Link>

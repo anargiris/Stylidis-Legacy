@@ -11,7 +11,10 @@ const OfferSection = () => {
   });
 
   return (
-    <section ref={ref} className="min-h-screen xl:min-h-full  bg-gray-darkest">
+    <section
+      ref={ref}
+      className="min-h-screen xl:min-h-full  bg-gray-darkest py-2"
+    >
       <h3 className="text-5xl font-cab text-gray-200 text-center pt-4 mb-8 2xl:pt-10">
         My Offer:
       </h3>
