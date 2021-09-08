@@ -16,7 +16,7 @@ const EcommerceSection = () => {
   return (
     <section
       ref={ref}
-      className="min-h-screen relative w-full overflow-hidden"
+      className="min-h-screen relative w-full overflow-hidden border-b-2 border-gray-darkest"
       style={{ backgroundImage: "url(/gradient.svg)" }}
     >
       <h4 className="font-next text-gray-800 text-center pt-4 2xl:text-6xl text-4xl font-bold">

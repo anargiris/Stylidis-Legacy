@@ -27,10 +27,10 @@ const HomePageHeader = () => {
             </span>
           </span>
           <div className={`pb-1`}>
-            <h2 className="md:w-1/2 md:mt-14 mt-8 font-cab text-xl 2xl:text-2xl leading-relaxed font-bold text-gray-900 mb-2">
-              I am a web developer from Greece.
+            <h2 className="md:w-1/2 md:mt-14 mt-8 font-cab text-xl 2xl:text-2xl leading-relaxed font-bold text-gray-800 mb-2">
+              Web developer from Greece.
             </h2>
-            <p className="md:w-1/2 font-cab leading-2 text-gray-800 ">
+            <p className="md:w-1/2 font-cab lg:text-lg leading-2 text-gray-800 ">
               I help small businesses and individuals by building fast and
               modern websites. I will provide you with all the tools and value
               you need to enter the digital world.
