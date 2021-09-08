@@ -27,7 +27,7 @@ const HomePageHeader = () => {
             </span>
           </span>
           <div className={`pb-1`}>
-            <h2 className="md:w-1/2 md:mt-14 mt-8 font-cab text-xl 2xl:text-3xl leading-relaxed font-bold text-gray-800 mb-2">
+            <h2 className="md:w-1/2 md:mt-14 mt-8 font-cab text-xl 2xl:text-4xl leading-relaxed font-bold text-gray-800 mb-2">
               Web developer from Greece.
             </h2>
             <p className="md:w-1/2 font-cab lg:text-lg 2xl:text-2xl leading-2 text-gray-800 ">

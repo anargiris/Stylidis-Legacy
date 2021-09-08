@@ -9,9 +9,8 @@ const BrandSection = () => {
       className="min-h-screen flex lg:flex-row flex-col"
       style={{ backgroundColor: "#f8f9fa" }}
     >
-      <div className="flex-1">
-        <Clouds />
-        {/* <div className="lg:hidden h-96 relative">
+      <Clouds />
+      {/* <div className="lg:hidden h-96 relative">
           <Image
             src="/abstract.jpg"
             layout="fill"
@@ -19,7 +18,6 @@ const BrandSection = () => {
             alt="Image of Brand Section. Created by Mirella Bee."
           />
         </div> */}
-      </div>
     </section>
   );
 };

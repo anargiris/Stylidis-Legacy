@@ -33,7 +33,7 @@ const Clouds = () => {
 
   return (
     <>
-      <div className="h-screen" ref={myRef}>
+      <div className="min-h-screen" ref={myRef}>
         <div className="font-cab px-1 text-center max-w-3xl mx-auto 2xl:px-4 py-4 text-gray-darkest">
           <h3 className="font-next text-3xl 2xl:text-5xl mb-4 text-blue-600">
             I create modern websites.
