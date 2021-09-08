@@ -10,14 +10,6 @@ const BrandSection = () => {
       style={{ backgroundColor: "#f8f9fa" }}
     >
       <Clouds />
-      {/* <div className="lg:hidden h-96 relative">
-          <Image
-            src="/abstract.jpg"
-            layout="fill"
-            priority={true}
-            alt="Image of Brand Section. Created by Mirella Bee."
-          />
-        </div> */}
     </section>
   );
 };
