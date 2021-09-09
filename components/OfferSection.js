@@ -39,7 +39,7 @@ const OfferSection = () => {
           <Offer
             title="SEO"
             img="/icons/search.svg"
-            desc="Search engines are going to love indexing your website!"
+            desc="Appear on Google, Bing and Yahoo when people search online for your business."
           />
           <Offer
             title="Support"

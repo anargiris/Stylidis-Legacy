@@ -40,7 +40,7 @@ const HomePageHeader = () => {
           <div className="mt-10 2xl:mt-20">
             <div>
               <span
-                className={`${styles.wordCarousel} font-next md:flex hidden text-gray-darkest`}
+                className={`${styles.wordCarousel} font-next flex text-gray-darkest`}
               >
                 <span>Are you </span>
                 <div className="italic z-10">
