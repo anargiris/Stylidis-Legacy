@@ -7,9 +7,9 @@ const Offer = ({ img, title, desc }) => {
       <span className="md:float-left flex justify-center items-center">
         <Image src={img} width={150} height={150} />
       </span>
-      <h6 className="text-2xl xl:text-3xl  font-bold lg:text-left text-center">
+      <p className="text-2xl xl:text-3xl  font-bold lg:text-left text-center">
         {title}
-      </h6>
+      </p>
       <p className="mt-4 text-lg xl:text-xl text-gray-300 lg:text-left text-center">
         {desc}
       </p>

@@ -15,9 +15,9 @@ const OfferSection = () => {
       ref={ref}
       className="min-h-screen xl:min-h-full  bg-gray-darkest py-2"
     >
-      <h3 className="text-5xl font-cab text-gray-200 text-center pt-4 mb-8 2xl:pt-10">
+      <p className="text-5xl font-cab text-gray-200 text-center pt-4 mb-8 2xl:pt-10">
         My Offer:
-      </h3>
+      </p>
 
       {inView && (
         <motion.div

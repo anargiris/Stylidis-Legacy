@@ -61,7 +61,7 @@ const devs = () => {
               development.
             </motion.p>
             <motion.div
-              className="border-l-2 border-blue-300 pl-2 text-center md:text-left "
+              className="md:border-l-2 border-blue-300 pl-2 text-center md:text-left "
               variants={item}
             >
               <h3 className="font-bold mt-4">My main stack:</h3>

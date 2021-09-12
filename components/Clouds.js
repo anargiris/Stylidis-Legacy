@@ -78,11 +78,13 @@ const Clouds = () => {
           </div>
           <p className="mt-10 text-gray-darkest 2xl:text-2xl">
             <Link href="/work">
-              <span className="cursor-pointer 2xl:text-2xl text-yellow-600 text-lg hover:text-yellow-700 transitoin duration-200">
-                See my work
+              <span className="cursor-pointer bg-white bg-opacity-70 font-next px-3 py-2 border border-gray-darkest rounded-md 2xl:text-2xl text-blue-900 text-lg hover:text-gray-100 hover:bg-gray-darkest transition duration-200">
+                see my work
               </span>
             </Link>
-            . If you like what you see, I'd be happy to work with you.
+            <br />
+            <br />
+            If you like what you see, I'd be happy to work with you.
           </p>
         </div>
       </div>

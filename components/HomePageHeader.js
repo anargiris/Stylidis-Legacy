@@ -27,7 +27,7 @@ const HomePageHeader = () => {
             </span>
           </span>
           <div className={`pb-1`}>
-            <h2 className="md:w-1/2 md:mt-14 mt-8 font-cab text-xl 2xl:text-4xl leading-relaxed font-bold text-gray-800 mb-2">
+            <h2 className="md:w-1/2 md:mt-14 mt-8 font-cab text-xl 2xl:text-4xl leading-relaxed font-bold text-gray-800 mb-3 2xl:mb-5">
               Web developer from Greece.
             </h2>
             <p className="md:w-1/2 font-cab lg:text-lg 2xl:text-2xl leading-2 text-gray-800 ">
@@ -57,7 +57,7 @@ const HomePageHeader = () => {
               </p>
               <Link href="/contact">
                 <button className="bg-gray-200 border border-gray-600 hover:border-gray-300 font-cab 2xl:py-4 py-2 focus:outline-none mr-2 px-4 shadow-md hover:bg-gray-800 2xl:text-2xl 2xl:px-6 hover:text-gray-200 mt-4 2xl:mt-10 transition duration-200 rounded-sm relative z-10">
-                  Get a website.
+                  Get a website
                 </button>
               </Link>
               <Link href="/devs">

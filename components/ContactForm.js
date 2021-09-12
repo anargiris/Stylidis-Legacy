@@ -52,6 +52,7 @@ const ContactForm = () => {
         onChange={(e) => {
           setName(e.target.value);
         }}
+        maxLength="20"
         placeholder="Your name"
         required={true}
       />
@@ -61,10 +62,11 @@ const ContactForm = () => {
         name="email"
         value={email}
         required={true}
+        maxLength="30"
         onChange={(e) => {
           setEmail(e.target.value);
         }}
-        placeholder="Email"
+        placeholder="Your email"
       />
       <textarea
         className="bg-blue-50 border-b border-gray-200 p-2 focus:outline-none focus:shadow-xl focus:bg-gray-50 transition duration-200 shadow-sm"
@@ -74,7 +76,7 @@ const ContactForm = () => {
           setMessage(e.target.value);
         }}
         rows="7"
-        placeholder="Tell me about your business and ideas"
+        placeholder="Briefly describe what your business is about and what your goals are"
         maxLength="600"
         required={true}
       ></textarea>
