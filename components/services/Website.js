@@ -16,7 +16,7 @@ const Website = () => {
 
   return (
     <motion.div
-      className="max-w-5xl 2xl:max-w-6xl  mx-auto h-full p-4 flex md:flex-row flex-col justify-between"
+      className="max-w-5xl 2xl:max-w-6xl text-center md:text-left  mx-auto h-full p-4 flex md:flex-row flex-col justify-between"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
     >
@@ -24,7 +24,7 @@ const Website = () => {
         <h3 className="text-2xl 2xl:text-3xl font-bold text-indigo-700 mb-4">
           Give your business a digital home.
         </h3>
-        <p className="w-2/3 mb-10 2xl:text-xl">
+        <p className="md:w-2/3 mb-10 2xl:text-xl">
           If you love what you do then you better let the internet know.
           Building a website is essential to today's world.
           <br />

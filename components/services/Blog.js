@@ -23,7 +23,7 @@ const Blog = () => {
         <h3 className="text-2xl 2xl:text-3xl font-bold text-blue-700 mb-4">
           Create the content your audience needs.
         </h3>
-        <p className="w-2/3 2xl:text-xl">
+        <p className="md:w-2/3 2xl:text-xl">
           Having a blog on top of your website can be crucial to your business'
           development.
           <br />

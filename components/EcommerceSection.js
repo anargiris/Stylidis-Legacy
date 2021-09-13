@@ -19,7 +19,7 @@ const EcommerceSection = () => {
         <h4 className="font-next text-gray-800 text-center pt-2 2xl:text-5xl text-4xl font-bold">
           Services
         </h4>
-        <div className="w-full font-next border-b border-gray-darkest mt-2">
+        <div className="w-full font-next border-b pt-2 border-gray-darkest mt-2">
           <ul className="w-full flex justify-around">
             <li className="w-full">
               <button
@@ -56,7 +56,7 @@ const EcommerceSection = () => {
           </ul>
         </div>
       </div>
-      <div className="h-3/4 font-cab">
+      <div className="h-3/4 font-cab my-1">
         <AnimateSharedLayout>
           {section === "website" && <Website />}
           {section === "eshop" && <Eshop />}

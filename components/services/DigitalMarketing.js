@@ -23,7 +23,7 @@ const Marketing = () => {
         <h3 className="text-2xl 2xl:text-3xl font-bold text-blue-700 mb-4">
           Build your online presence.
         </h3>
-        <p className="w-2/3 2xl:text-xl">
+        <p className="md:w-2/3 2xl:text-xl">
           Make the best of the available tools on the internet to make sure you
           reach as many people as possible. Optimised content are loved by
           search engines.
