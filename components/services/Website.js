@@ -21,7 +21,7 @@ const Website = () => {
       animate={{ opacity: 1 }}
     >
       <div>
-        <h3 className="text-2xl 2xl:text-3xl font-bold text-indigo-700 mb-4">
+        <h3 className="text-2xl 2xl:text-3xl font-bold text-blue-700 mb-4">
           Give your business a digital home.
         </h3>
         <p className="md:w-2/3 mb-10 2xl:text-xl">
