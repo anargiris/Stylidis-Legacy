@@ -16,7 +16,7 @@ const EcommerceSection = () => {
       style={{ backgroundColor: "#f8f9fa" }}
     >
       <div className="h-1/4">
-        <h4 className="font-next text-gray-800 text-center pt-2 2xl:text-6xl text-4xl font-bold">
+        <h4 className="font-next text-gray-800 text-center pt-2 2xl:text-5xl text-4xl font-bold">
           Services
         </h4>
         <div className="w-full font-next border-b border-gray-darkest mt-2">
