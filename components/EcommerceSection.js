@@ -12,7 +12,7 @@ const EcommerceSection = () => {
 
   return (
     <section
-      className="min-h-screen relative w-full overflow-hidden border-b-2 border-gray-darkest"
+      className="h-90 relative w-full overflow-hidden border-b-2 border-gray-darkest"
       style={{ backgroundColor: "#f8f9fa" }}
     >
       <div className="h-1/4">
