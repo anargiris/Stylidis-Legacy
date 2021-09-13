@@ -35,17 +35,6 @@ const MobileNav = () => {
       variants={list}
       className="py-5 relative flex md:hidden z-10"
     >
-      <Link href="/ecommerce">
-        <motion.div variants={item} className="relative">
-          <Image
-            src="/icons/eshop.svg"
-            height={50}
-            width={50}
-            alt="Mobile nav ecommerce"
-          />
-        </motion.div>
-      </Link>
-
       <Link href="/work">
         <motion.div variants={item}>
           <Image

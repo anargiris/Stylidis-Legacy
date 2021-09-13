@@ -37,29 +37,6 @@ const Navbar = () => {
       className="absolute md:right-0 gap-2 bottom-0 md:bottom-auto hidden md:block md:pr-10 md:mr-10 md:mt-40 "
     >
       <motion.div variants={item} className={styles.logo}>
-        <Link href="/ecommerce">
-          <span className={styles.button}>Ecommerce</span>
-        </Link>
-        <span className={styles.list}>
-          <span className="2xl:hidden">
-            <Image
-              src="/icons/eshop.svg"
-              height={50}
-              width={50}
-              alt="Ecommerce Nav Icon"
-            />
-          </span>
-          <span className="hidden 2xl:inline-block">
-            <Image
-              src="/icons/eshop.svg"
-              height={80}
-              width={80}
-              alt="Ecommerce Nav Icon"
-            />
-          </span>
-        </span>
-      </motion.div>
-      <motion.div variants={item} className={styles.logo}>
         <Link href="/work">
           <span className={styles.button}>Projects</span>
         </Link>
