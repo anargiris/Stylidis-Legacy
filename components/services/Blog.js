@@ -15,7 +15,7 @@ const Blog = () => {
 
   return (
     <motion.div
-      className="max-w-5xl mx-auto h-full p-4 flex justify-between"
+      className="max-w-5xl mx-auto h-full p-4 flex md:flex-row flex-col justify-between"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
     >
