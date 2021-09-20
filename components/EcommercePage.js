@@ -9,10 +9,7 @@ import Link from "next/link";
 const EcommercePage = () => {
   return (
     <>
-      <div
-        className="min-h-screen"
-        style={{ backgroundImage: "url(/gradient.svg)" }}
-      >
+      <div className="min-h-screen" style={{ backgroundColor: "#f8f9fa" }}>
         <PageNavbar />
         <header className="max-w-5xl mx-auto text-center md:text-left">
           <div className="pt-6">
